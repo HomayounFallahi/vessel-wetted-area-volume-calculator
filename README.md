@@ -16,7 +16,7 @@ This application provides accurate geometric calculations for process vessels, a
 
 ### Single-File Application
 
-1. [Download](https://ir.linkedin.com/in/homayoun-fallahi)   `VesselCalculator.html`(Zipped) from the from the Releases page.
+1. [Download](https://github.com/HomayounFallahi/vessel-wetted-area-volume-calculator/releases/download/Releases/Wetted.Area.Volume.for.Vessels.html)   `VesselCalculator.html` from the from the Releases page.
 2. Open the file in any modern web browser (Chrome, Edge, Firefox).
 3. No installation, internet connection, or server setup is required.
 
