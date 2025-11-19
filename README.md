@@ -2,17 +2,17 @@
 
 ***
 
-# Vessel Wetted Area & Volume Calculator
+# 📐 Vessel Wetted Area & Volume Calculator
 
 A lightweight, browser-based tool for process engineers to calculate partial volumes and wetted surface areas of horizontal and vertical process vessels with various head configurations.
 
-## Overview
+## 📋 Overview
 
 This application provides accurate geometric calculations for process vessels, allowing engineers to determine liquid volume and wetted surface area based on liquid level. It supports multiple head types, vessel orientations, and unit systems.
+
 **Developed by:** [Homayoun Fallahi](https://ir.linkedin.com/in/homayoun-fallahi)  
 
-
-## Installation & Usage
+## ⚙️ Installation & Usage
 
 ### Single-File Application
 
@@ -20,7 +20,7 @@ This application provides accurate geometric calculations for process vessels, a
 2. Open the file in any modern web browser (Chrome, Edge, Firefox, Safari).
 3. No installation, internet connection, or server setup is required.
 
-## App interface
+## 🖥️ App Interface
 
 <div align="center">
   <img src="/interface/horizontal-view.png" alt="Horizontal Vessel Calculation" width="45%"/>
@@ -33,9 +33,9 @@ This application provides accurate geometric calculations for process vessels, a
 
 *(Note: Replace the image paths above with actual screenshots of your application)*
 
-## Features
+## ✨ Features
 
-### Core Functionality
+### ⚙️ Core Functionality
 - **Dual Orientation**: Support for both Horizontal and Vertical vessel arrangements.
 - **Comprehensive Head Support**: Calculates geometry for:
   - Hemispherical
@@ -45,18 +45,18 @@ This application provides accurate geometric calculations for process vessels, a
   - Flat
 - **Standards Compliance**: Option to toggle between ASME and DIN standards for specific head geometries.
 
-### Interactive Visualization
+### 📊 Interactive Visualization
 - **Dynamic SVG Rendering**: Real-time visual representation of the vessel and liquid level.
 - **Liquid Level Indication**: Visual feedback changes as you adjust the liquid height input.
 - **Cross-Sectional View**: Accurate aspect ratio representation of the cylinder and heads.
 
-### User Interface
+### 💻 User Interface
 - **Unit Flexibility**: Instant switching between Meters (m), Millimeters (mm), and Inches (in).
 - **Smart Inputs**: Automatic calculation of dependent variables (e.g., Dish Depth `z` auto-fills based on Diameter for standard heads).
 - **Detailed Breakdown**: View separate metrics for the Cylinder body vs. the Heads.
 - **Reactive Design**: Built with Tailwind CSS for a responsive, dark-mode interface suitable for desktop and tablet.
 
-## How to Use
+## 📖 How to Use
 
 ### Getting Started
 
@@ -68,7 +68,7 @@ This application provides accurate geometric calculations for process vessels, a
    - *Note: Additional fields (like Knuckle Radius) appear dynamically based on head type.*
 6. **Review Results**: Results update instantly in the "Calculation Results" panel.
 
-### Key Workflows
+### 🔑 Key Workflows
 
 #### Analyzing Partial Volumes
 - Enter the liquid height (`h` or `H1`) to get the exact volume of liquid and the surface area in contact with the fluid.
@@ -78,7 +78,7 @@ This application provides accurate geometric calculations for process vessels, a
 - Use the visualizer to ensure the input dimensions result in a realistic vessel shape.
 - Warnings will appear if inputs are invalid (e.g., Liquid level higher than vessel diameter).
 
-### Input Parameters
+### 🔢 Input Parameters
 
 | Parameter | Symbol | Description |
 |-----------|--------|-------------|
@@ -113,7 +113,7 @@ The application calculates:
 **Validation Source:**
 The outputs of this tool have been cross-referenced and validated against **Aspen HYSYS** rigorous vessel models to ensure high accuracy for process engineering applications.
 
-## Acknowledgments
+## 🤝 Acknowledgments
 
 - **Neutrium**: Mathematical formulas and geometric derivations were sourced from [Neutrium.net](https://neutrium.net/).
 - **AspenTech**: Validation of results performed using Aspen HYSYS.
